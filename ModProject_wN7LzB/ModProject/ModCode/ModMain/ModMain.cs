@@ -69,13 +69,13 @@ namespace MOD_wN7LzB
 
             Vector3 playerInfoNameTextVector = playerInfoNameText.transform.localPosition;
             btnFixNameObject.transform.localPosition = new Vector3(
-                playerInfoNameTextVector.x - 170f,
-                playerInfoNameTextVector.y - 40f,
+                playerInfoNameTextVector.x + 110f,
+                playerInfoNameTextVector.y,
                 playerInfoNameTextVector.z
             );
             goFixNameObject.transform.localPosition = new Vector3(
-                playerInfoNameTextVector.x,
-                playerInfoNameTextVector.y - 5f,
+                playerInfoNameTextVector.x - 170f,
+                playerInfoNameTextVector.y - 40f,
                 playerInfoNameTextVector.z
             );
 
